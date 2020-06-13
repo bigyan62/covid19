@@ -143,6 +143,22 @@ ul{
 .site-header .logo img {
     width: 138px;
 }
+.hamburger-menu  span svg{
+    fill:#fff;
+    width: 40px;
+    height: auto;
+}
+.hamburger-menu{
+    text-align: right;
+}
+.hamburger-menu  span{
+    cursor: pointer;
+
+}
+.hamburger-menu span svg:hover{
+    fill:#e74a3b;
+}
+
 
 
 /* Header section css */
@@ -186,11 +202,16 @@ ul{
     top: 50%;
     right: 10px;
     width: 45px;
+    opacity: 0.1;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
+    transition: all 0.3s ease-in-out;
+}
+.case-item .item:hover  .icon-holder{
+    opacity: 1;
 }
 
 .case-item .item .title{

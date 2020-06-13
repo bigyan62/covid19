@@ -6,6 +6,20 @@
 
 <div class="main-banner ">
     <div class="container">
+        <div class="d-none">
+            <div class="shape1 shape">
+                <img src="images/green-covid.png" alt="">
+            </div>
+            <div class="shape2 shape">
+                <img src="images/yellow-covid.png" alt="">
+            </div>
+            <div class="shape3 shape">
+                <img src="images/blue-covid.png" alt="">
+            </div>
+            <div class="shape4 shape">
+                <img src="images/green-covid.png" alt="">
+            </div>
+        </div>
         <div class="caption">
             <h3 class="title">Keep yourself at your home quarantine</h3>
             <h3 class="title">Stay Home, Stay Safe.</h3>
@@ -18,7 +32,7 @@
             <h1 class="title white-txt">COVID-19 CORONAVIRUS PANDEMIC</h1>
             <div class="case-item">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="item covid-case">
                             <h2 class="title">
                                 Coronavirus Cases
@@ -31,7 +45,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="item death-case">
                             <h2 class="title">
                                 Deaths Case
@@ -44,7 +58,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="item recover-case">
                             <h2 class="title">
                                 Recovered Case
@@ -57,7 +71,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="item new-case">
                             <h2 class="title">
                                 Recovered Case
@@ -82,7 +96,7 @@
 <!--  End Covid case  section  -->
 <div class="covid-wld-case-section">
     <div class="container">
-        
+
     </div>
 </div>
 

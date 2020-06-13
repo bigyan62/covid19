@@ -11,19 +11,13 @@ jQuery(function ($) {
         }
     });
 
-    new WOW().init();
-
-    $( '[data-fancybox="images"]' ).fancybox({
-        caption : function( instance, item ) {
-            return $(this).find('.caption').html();
-        }
-    });
-
-
     $(document).ready(function(){
-        $('.hamburger-menu').click(function(){
-            $(this).toggleClass('open');
+        $('.hamburger-menu .bar').click(function() {
             $('body').toggleClass('nav-active');
+        });
+        $(' .menu-close, .overlay').click(function() {
+            $('body').removeClass('nav-active');
+
         });
     });
     //smooth-scroll
